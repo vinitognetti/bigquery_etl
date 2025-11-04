@@ -85,7 +85,7 @@ def main():
 
     # Configurações
     CAMINHO_CREDENCIAIS = "chave_bigquery.json"
-    PROJECT_ID = "381169235467"
+    PROJECT_ID = ""
 
     # Cliente do BigQuery
     bq = BigQueryPipeline(CAMINHO_CREDENCIAIS, PROJECT_ID)
@@ -99,4 +99,5 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 
